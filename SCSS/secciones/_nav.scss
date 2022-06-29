@@ -10,16 +10,17 @@
     font-size: 2rem;
     font-family: "Raleway", sans-serif;
 
+
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: var(--bs-navbar-nav-link-padding-x);
     padding-left: var(--bs-navbar-nav-link-padding-x);
     margin: 30px;
-    font-family: "Raleway", sans-serif;
+    font-family: $tipoLetra;
 
     &:hover {
-        background-color: rgba(7, 7, 7, 0.1);
+        background-color: $colorFondoSecundario;
         color: rgb(12, 13, 14);
         transform: translate(1px);
         border-radius: 5px;
